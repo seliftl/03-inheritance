@@ -1,9 +1,8 @@
-package de.thro.inf.prg3.a03;
+package ohm.softa.a03;
 
-import de.thro.inf.prg3.a03.states.*;
+import ohm.softa.a03.states.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 
 public class Cat {
 	private static final Logger logger = LogManager.getLogger();

@@ -1,7 +1,7 @@
-package de.thro.inf.prg3.a03.states;
+package ohm.softa.a03.states;
 
-import de.thro.inf.prg3.a03.Cat;
-import de.thro.inf.prg3.a03.State;
+import ohm.softa.a03.Cat;
+import ohm.softa.a03.State;
 
 /**
  * @author Peter Kurfer
