@@ -54,7 +54,11 @@ public class CatTest {
 	@Test
 	void testAnimalDying(){
 		//Waiting while animal is sleeping and awake before it's going to die
-		IntStream.range(0, Sleep + Awake).forEach(i -> animal.tick());
+		IntStream.range(0, Sleep + 6).forEach(i -> animal.tick());
+		assertTrue(animal.isHungry());
+		animal.feed();
+		assertTrue(animal.isDigesting());
+		IntStream.range(0, Digest).forEach(i -> animal.tick());
 		assertTrue(animal.isDead());
 	}
 
